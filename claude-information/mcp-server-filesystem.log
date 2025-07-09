@@ -1,0 +1,69 @@
+2025-07-09T07:08:23.202Z [filesystem] [info] Initializing server... { metadata: undefined }
+2025-07-09T07:08:23.228Z [filesystem] [info] Using MCP server command: C:\WINDOWS\System32\cmd.exe with args and path: {
+  metadata: {
+    args: [
+      '/C',
+      'C:\\Program Files\\nodejs\\npx.cmd',
+      '-y',
+      '@modelcontextprotocol/server-filesystem',
+      'C:\\Users\\username\\Desktop',
+      'C:\\Users\\username\\Downloads',
+      [length]: 6
+    ],
+    paths: [
+      'C:\\Program Files\\nodejs',
+      'C:\\Program Files\\Google\\Chrome\\Application',
+      'C:\\Program Files\\dotnet\\',
+      'C:\\Program Files (x86)\\dotnet\\',
+      'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath',
+      'C:\\Program Files\\Microsoft\\jdk-11.0.12.7-hotspot\\bin',
+      'C:\\WINDOWS\\system32',
+      'C:\\WINDOWS',
+      'C:\\WINDOWS\\System32\\Wbem',
+      'C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\',
+      'C:\\WINDOWS\\System32\\OpenSSH\\',
+      'C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\',
+      'C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\',
+      'C:\\Program Files\\PuTTY\\',
+      'C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\',
+      'C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\',
+      'C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\',
+      'C:\\Users\\radit\\.dnx\\bin',
+      'C:\\Program Files\\Microsoft DNX\\Dnvm\\',
+      'C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\',
+      'C:\\Program Files (x86)\\Git\\cmd',
+      'C:\\Program Files\\nodejs\\',
+      'C:\\Program Files\\WinMerge',
+      'C:\\Program Files\\Docker\\Docker\\resources\\bin',
+      'C:\\Program Files\\dotnet',
+      'C:\\Program Files (x86)\\dotnet',
+      'C:\\Users\\radit\\.dotnet\\tools',
+      'C:\\Users\\radit\\AppData\\Local\\Microsoft\\WindowsApps',
+      'C:\\Users\\radit\\AppData\\Local\\Programs\\Microsoft VS Code\\bin',
+      'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin',
+      '',
+      'C:\\Users\\radit\\AppData\\Local\\GitHubDesktop\\bin',
+      'C:\\Users\\radit\\AppData\\Roaming\\npm',
+      'C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.2.5\\bin',
+      '',
+      'D:\\DEV\\flutter\\bin',
+      '',
+      [length]: 37
+    ]
+  }
+} %o
+2025-07-09T07:08:23.238Z [filesystem] [info] Server started and connected successfully { metadata: undefined }
+2025-07-09T07:08:23.310Z [filesystem] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0} { metadata: undefined }
+Error accessing directory C:\Users\username\Downloads: [Error: ENOENT: no such file or directory, stat 'C:\Users\username\Downloads'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\username\\Downloads'
+}
+2025-07-09T07:08:30.465Z [filesystem] [info] Server transport closed { metadata: undefined }
+2025-07-09T07:08:30.465Z [filesystem] [info] Client transport closed { metadata: undefined }
+2025-07-09T07:08:30.466Z [filesystem] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log. { metadata: undefined }
+2025-07-09T07:08:30.466Z [filesystem] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) { metadata: { context: 'connection', stack: undefined } }
+2025-07-09T07:08:30.467Z [filesystem] [info] Client transport closed { metadata: undefined }
+2025-07-09T08:55:01.268Z [filesystem] [info] Client transport closed { metadata: undefined }
+2025-07-09T08:55:01.268Z [filesystem] [info] Shutting down server... { metadata: undefined }

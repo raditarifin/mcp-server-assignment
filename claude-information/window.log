@@ -1,0 +1,26 @@
+2025-07-09 13:59:03 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-07-09 13:59:03 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-07-09 13:59:03 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-07-09 13:59:03 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-07-09 13:59:03 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-07-09 13:59:03 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-07-09 13:59:03 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-07-09 13:59:03 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-07-09 13:59:03 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-07-09 13:59:05 [warn] [Intercom] The App ID in your code snippet has not been set. Set it to your App ID found in settings to complete installation: https://app.intercom.com/a/apps/_/settings/web
+2025-07-09 13:59:28 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-07-09 13:59:33 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-07-09 14:08:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-07-09 14:08:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-07-09 14:08:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-07-09 14:08:22 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-07-09 14:08:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.
+2025-07-09 14:08:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'document-domain'.
+2025-07-09 14:08:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'speaker-selection'.
+2025-07-09 14:08:23 [warn] Error with Permissions-Policy header: Unrecognized feature: 'web-share'.
+2025-07-09 14:08:23 [warn] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-07-09 14:08:23 [warn] Found 1 service worker(s), which are no longer used. Unregistering.
+2025-07-09 14:08:26 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-07-09 14:08:31 [error] Potential permissions policy violation: payment is not allowed in this document.
+2025-07-09 14:09:23 [error] Could not attach to MCP server filesystem: Error: MCP error -32001: Request timed out
+2025-07-09 14:10:25 [warn] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.

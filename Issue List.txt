@@ -1,0 +1,30 @@
+
+
+Kendala yang di hadapi : 
+
+1. Issue :  
+   Ketika mencoba testing dengan MCP Inspector, dengan menjalankan perintah : 
+   npx @modelcontextprotocol/inspector dotnet run
+   
+   lalu muncul halaman inspector, saya coba connect, hasilnay tidak langsung konek, tetapi muncul keterangan : 
+   
+   Connection Error - Did you add the proxy session token in Configuration?
+   
+   Solusi : 
+   
+   Ternyata setelah saya cari tahu penyebabnya , perlu ada configurasi tambahan dengan menambahkan : 
+   1. Proxy 
+   2. Session token 
+
+2. Issue : 
+   Saya coba rubah konfigurasi MCP Claude nya dengan command yang tidak sesuai seperti di Bawah ini : 
+    "my-dotnet-server": {
+      "command": "D:\\WORK\\BINAR\\mcp\\mcp-server\\bin\\Debug\\net8.0\\mcp-server",
+      "args": []
+    }
+
+    claude menampilkan : 
+    No result received from client-side tool execution.
+
+   
+   

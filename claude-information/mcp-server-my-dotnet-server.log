@@ -1,0 +1,118 @@
+2025-07-09T07:08:23.203Z [my-dotnet-server] [info] Initializing server... { metadata: undefined }
+2025-07-09T07:08:23.239Z [my-dotnet-server] [info] Using MCP server command: D:\WORK\BINAR\mcp\mcp-server\bin\Debug\net8.0\mcp-server.exe with args and path: {
+  metadata: {
+    args: [ [length]: 0 ],
+    paths: [
+      'C:\\Program Files\\nodejs',
+      'C:\\Program Files\\Google\\Chrome\\Application',
+      'C:\\Program Files\\dotnet\\',
+      'C:\\Program Files (x86)\\dotnet\\',
+      'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath',
+      'C:\\Program Files\\Microsoft\\jdk-11.0.12.7-hotspot\\bin',
+      'C:\\WINDOWS\\system32',
+      'C:\\WINDOWS',
+      'C:\\WINDOWS\\System32\\Wbem',
+      'C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\',
+      'C:\\WINDOWS\\System32\\OpenSSH\\',
+      'C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\',
+      'C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\',
+      'C:\\Program Files\\PuTTY\\',
+      'C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\',
+      'C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\',
+      'C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\',
+      'C:\\Users\\radit\\.dnx\\bin',
+      'C:\\Program Files\\Microsoft DNX\\Dnvm\\',
+      'C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\',
+      'C:\\Program Files (x86)\\Git\\cmd',
+      'C:\\Program Files\\nodejs\\',
+      'C:\\Program Files\\WinMerge',
+      'C:\\Program Files\\Docker\\Docker\\resources\\bin',
+      'C:\\Program Files\\dotnet',
+      'C:\\Program Files (x86)\\dotnet',
+      'C:\\Users\\radit\\.dotnet\\tools',
+      'C:\\Users\\radit\\AppData\\Local\\Microsoft\\WindowsApps',
+      'C:\\Users\\radit\\AppData\\Local\\Programs\\Microsoft VS Code\\bin',
+      'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin',
+      '',
+      'C:\\Users\\radit\\AppData\\Local\\GitHubDesktop\\bin',
+      'C:\\Users\\radit\\AppData\\Roaming\\npm',
+      'C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.2.5\\bin',
+      '',
+      'D:\\DEV\\flutter\\bin',
+      '',
+      [length]: 37
+    ]
+  }
+} %o
+2025-07-09T07:08:23.246Z [my-dotnet-server] [info] Server started and connected successfully { metadata: undefined }
+2025-07-09T07:08:23.312Z [my-dotnet-server] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0} { metadata: undefined }
+2025-07-09T07:08:23.782Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":0,"result":{"protocolVersion":"2024-11-05","capabilities":{"logging":{},"tools":{"listChanged":true}},"serverInfo":{"name":"mcp-server","version":"1.0.0.0"}}} { metadata: undefined }
+2025-07-09T07:08:23.784Z [my-dotnet-server] [info] Message from client: {"method":"notifications/initialized","jsonrpc":"2.0"} { metadata: undefined }
+2025-07-09T07:08:23.787Z [my-dotnet-server] [info] Message from client: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1} { metadata: undefined }
+2025-07-09T07:08:23.787Z [my-dotnet-server] [info] Message from client: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":2} { metadata: undefined }
+2025-07-09T07:08:23.788Z [my-dotnet-server] [info] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":3} { metadata: undefined }
+2025-07-09T07:08:23.799Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":3,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}} { metadata: undefined }
+2025-07-09T07:08:23.800Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"get_day_of_week","description":"Get the current day of the week","inputSchema":{"type":"object","properties":{}}}]}} { metadata: undefined }
+2025-07-09T07:08:23.800Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":1,"result":{"tools":[{"name":"get_day_of_week","description":"Get the current day of the week","inputSchema":{"type":"object","properties":{}}}]}} { metadata: undefined }
+2025-07-09T07:08:23.800Z [my-dotnet-server] [info] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":4} { metadata: undefined }
+2025-07-09T07:08:23.801Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":4,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}} { metadata: undefined }
+2025-07-09T07:08:25.367Z [my-dotnet-server] [info] Message from client: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":5} { metadata: undefined }
+2025-07-09T07:08:25.368Z [my-dotnet-server] [info] Message from client: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":6} { metadata: undefined }
+2025-07-09T07:08:25.368Z [my-dotnet-server] [info] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":7} { metadata: undefined }
+2025-07-09T07:08:25.370Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":5,"result":{"tools":[{"name":"get_day_of_week","description":"Get the current day of the week","inputSchema":{"type":"object","properties":{}}}]}} { metadata: undefined }
+2025-07-09T07:08:25.371Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":6,"result":{"tools":[{"name":"get_day_of_week","description":"Get the current day of the week","inputSchema":{"type":"object","properties":{}}}]}} { metadata: undefined }
+2025-07-09T07:08:25.371Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":7,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}} { metadata: undefined }
+2025-07-09T07:08:25.626Z [my-dotnet-server] [info] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":8} { metadata: undefined }
+2025-07-09T07:08:25.665Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":8,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}} { metadata: undefined }
+2025-07-09T07:10:30.066Z [my-dotnet-server] [info] Message from client: {"method":"tools/call","params":{"name":"get_day_of_week","arguments":{}},"jsonrpc":"2.0","id":9} { metadata: undefined }
+2025-07-09T07:10:30.088Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":9,"result":{"content":[{"type":"text","text":"Today is Wednesday."}]}} { metadata: undefined }
+2025-07-09T07:10:30.132Z [my-dotnet-server] [info] Message from client: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":10} { metadata: undefined }
+2025-07-09T07:10:30.132Z [my-dotnet-server] [info] Message from client: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":11} { metadata: undefined }
+2025-07-09T07:10:30.132Z [my-dotnet-server] [info] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":12} { metadata: undefined }
+2025-07-09T07:10:30.133Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":11,"result":{"tools":[{"name":"get_day_of_week","description":"Get the current day of the week","inputSchema":{"type":"object","properties":{}}}]}} { metadata: undefined }
+2025-07-09T07:10:30.133Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":10,"result":{"tools":[{"name":"get_day_of_week","description":"Get the current day of the week","inputSchema":{"type":"object","properties":{}}}]}} { metadata: undefined }
+2025-07-09T07:10:30.133Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":12,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}} { metadata: undefined }
+2025-07-09T07:10:30.182Z [my-dotnet-server] [info] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":13} { metadata: undefined }
+2025-07-09T07:10:30.182Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":13,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}} { metadata: undefined }
+2025-07-09T07:20:30.759Z [my-dotnet-server] [info] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":14} { metadata: undefined }
+2025-07-09T07:20:30.761Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":14,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}} { metadata: undefined }
+2025-07-09T07:20:30.885Z [my-dotnet-server] [info] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":15} { metadata: undefined }
+2025-07-09T07:20:30.886Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":15,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}} { metadata: undefined }
+2025-07-09T07:30:30.763Z [my-dotnet-server] [info] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":16} { metadata: undefined }
+2025-07-09T07:30:30.766Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":16,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}} { metadata: undefined }
+2025-07-09T07:30:30.822Z [my-dotnet-server] [info] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":17} { metadata: undefined }
+2025-07-09T07:30:30.824Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":17,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}} { metadata: undefined }
+2025-07-09T07:40:30.764Z [my-dotnet-server] [info] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":18} { metadata: undefined }
+2025-07-09T07:40:30.767Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":18,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}} { metadata: undefined }
+2025-07-09T07:40:30.871Z [my-dotnet-server] [info] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":19} { metadata: undefined }
+2025-07-09T07:40:30.872Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":19,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}} { metadata: undefined }
+2025-07-09T07:50:30.765Z [my-dotnet-server] [info] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":20} { metadata: undefined }
+2025-07-09T07:50:30.769Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":20,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}} { metadata: undefined }
+2025-07-09T07:50:30.880Z [my-dotnet-server] [info] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":21} { metadata: undefined }
+2025-07-09T07:50:30.881Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":21,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}} { metadata: undefined }
+2025-07-09T08:00:30.764Z [my-dotnet-server] [info] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":22} { metadata: undefined }
+2025-07-09T08:00:30.767Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":22,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}} { metadata: undefined }
+2025-07-09T08:00:30.866Z [my-dotnet-server] [info] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":23} { metadata: undefined }
+2025-07-09T08:00:30.867Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":23,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}} { metadata: undefined }
+2025-07-09T08:40:10.099Z [my-dotnet-server] [info] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":24} { metadata: undefined }
+2025-07-09T08:40:10.342Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":24,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}} { metadata: undefined }
+2025-07-09T08:40:10.822Z [my-dotnet-server] [info] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":25} { metadata: undefined }
+2025-07-09T08:40:10.895Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":25,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}} { metadata: undefined }
+2025-07-09T08:48:33.692Z [my-dotnet-server] [info] Message from client: {"method":"tools/call","params":{"name":"get_day_of_week","arguments":{}},"jsonrpc":"2.0","id":26} { metadata: undefined }
+2025-07-09T08:48:33.694Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":26,"result":{"content":[{"type":"text","text":"Today is Wednesday."}]}} { metadata: undefined }
+2025-07-09T08:50:30.769Z [my-dotnet-server] [info] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":27} { metadata: undefined }
+2025-07-09T08:50:30.772Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":27,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}} { metadata: undefined }
+2025-07-09T08:50:30.828Z [my-dotnet-server] [info] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":28} { metadata: undefined }
+2025-07-09T08:50:30.829Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":28,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}} { metadata: undefined }
+2025-07-09T08:52:58.068Z [my-dotnet-server] [info] Message from client: {"method":"tools/call","params":{"name":"get_day_of_week","arguments":{}},"jsonrpc":"2.0","id":29} { metadata: undefined }
+2025-07-09T08:52:58.070Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":29,"result":{"content":[{"type":"text","text":"Today is Wednesday."}]}} { metadata: undefined }
+2025-07-09T08:54:41.171Z [my-dotnet-server] [info] Message from client: {"method":"tools/call","params":{"name":"get_day_of_week","arguments":{}},"jsonrpc":"2.0","id":30} { metadata: undefined }
+2025-07-09T08:54:41.173Z [my-dotnet-server] [info] Message from server: {"jsonrpc":"2.0","id":30,"result":{"content":[{"type":"text","text":"Today is Wednesday."}]}} { metadata: undefined }
+2025-07-09T08:55:01.269Z [my-dotnet-server] [info] Client transport closed { metadata: undefined }
+2025-07-09T08:55:01.269Z [my-dotnet-server] [info] Server transport closed { metadata: undefined }
+2025-07-09T08:55:01.270Z [my-dotnet-server] [info] Client transport closed { metadata: undefined }
+2025-07-09T08:55:01.270Z [my-dotnet-server] [info] Server transport closed (intentional shutdown) { metadata: undefined }
+2025-07-09T08:55:01.270Z [my-dotnet-server] [info] Client transport closed { metadata: undefined }
+2025-07-09T08:55:01.269Z [my-dotnet-server] [info] Shutting down server... { metadata: undefined }
+2025-07-09T08:55:01.280Z [my-dotnet-server] [info] Server transport closed { metadata: undefined }
+2025-07-09T08:55:01.280Z [my-dotnet-server] [info] Client transport closed { metadata: undefined }

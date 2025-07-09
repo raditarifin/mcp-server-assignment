@@ -1,0 +1,177 @@
+2025-07-09T07:08:23.202Z [info] [filesystem] Initializing server...
+2025-07-09T07:08:23.203Z [info] [my-dotnet-server] Initializing server...
+2025-07-09T07:08:23.228Z [info] [filesystem] Using MCP server command: C:\WINDOWS\System32\cmd.exe with args and path: {
+  args: [
+    '/C',
+    'C:\\Program Files\\nodejs\\npx.cmd',
+    '-y',
+    '@modelcontextprotocol/server-filesystem',
+    'C:\\Users\\username\\Desktop',
+    'C:\\Users\\username\\Downloads',
+    [length]: 6
+  ],
+  paths: [
+    'C:\\Program Files\\nodejs',
+    'C:\\Program Files\\Google\\Chrome\\Application',
+    'C:\\Program Files\\dotnet\\',
+    'C:\\Program Files (x86)\\dotnet\\',
+    'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath',
+    'C:\\Program Files\\Microsoft\\jdk-11.0.12.7-hotspot\\bin',
+    'C:\\WINDOWS\\system32',
+    'C:\\WINDOWS',
+    'C:\\WINDOWS\\System32\\Wbem',
+    'C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\',
+    'C:\\WINDOWS\\System32\\OpenSSH\\',
+    'C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\',
+    'C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\',
+    'C:\\Program Files\\PuTTY\\',
+    'C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\',
+    'C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\',
+    'C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\',
+    'C:\\Users\\radit\\.dnx\\bin',
+    'C:\\Program Files\\Microsoft DNX\\Dnvm\\',
+    'C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\',
+    'C:\\Program Files (x86)\\Git\\cmd',
+    'C:\\Program Files\\nodejs\\',
+    'C:\\Program Files\\WinMerge',
+    'C:\\Program Files\\Docker\\Docker\\resources\\bin',
+    'C:\\Program Files\\dotnet',
+    'C:\\Program Files (x86)\\dotnet',
+    'C:\\Users\\radit\\.dotnet\\tools',
+    'C:\\Users\\radit\\AppData\\Local\\Microsoft\\WindowsApps',
+    'C:\\Users\\radit\\AppData\\Local\\Programs\\Microsoft VS Code\\bin',
+    'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin',
+    '',
+    'C:\\Users\\radit\\AppData\\Local\\GitHubDesktop\\bin',
+    'C:\\Users\\radit\\AppData\\Roaming\\npm',
+    'C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.2.5\\bin',
+    '',
+    'D:\\DEV\\flutter\\bin',
+    '',
+    [length]: 37
+  ]
+}
+2025-07-09T07:08:23.238Z [info] [filesystem] Server started and connected successfully
+2025-07-09T07:08:23.240Z [info] [my-dotnet-server] Using MCP server command: D:\WORK\BINAR\mcp\mcp-server\bin\Debug\net8.0\mcp-server.exe with args and path: {
+  args: [ [length]: 0 ],
+  paths: [
+    'C:\\Program Files\\nodejs',
+    'C:\\Program Files\\Google\\Chrome\\Application',
+    'C:\\Program Files\\dotnet\\',
+    'C:\\Program Files (x86)\\dotnet\\',
+    'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath',
+    'C:\\Program Files\\Microsoft\\jdk-11.0.12.7-hotspot\\bin',
+    'C:\\WINDOWS\\system32',
+    'C:\\WINDOWS',
+    'C:\\WINDOWS\\System32\\Wbem',
+    'C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\',
+    'C:\\WINDOWS\\System32\\OpenSSH\\',
+    'C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\',
+    'C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\',
+    'C:\\Program Files\\PuTTY\\',
+    'C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\',
+    'C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\',
+    'C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\',
+    'C:\\Users\\radit\\.dnx\\bin',
+    'C:\\Program Files\\Microsoft DNX\\Dnvm\\',
+    'C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\',
+    'C:\\Program Files (x86)\\Git\\cmd',
+    'C:\\Program Files\\nodejs\\',
+    'C:\\Program Files\\WinMerge',
+    'C:\\Program Files\\Docker\\Docker\\resources\\bin',
+    'C:\\Program Files\\dotnet',
+    'C:\\Program Files (x86)\\dotnet',
+    'C:\\Users\\radit\\.dotnet\\tools',
+    'C:\\Users\\radit\\AppData\\Local\\Microsoft\\WindowsApps',
+    'C:\\Users\\radit\\AppData\\Local\\Programs\\Microsoft VS Code\\bin',
+    'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin',
+    '',
+    'C:\\Users\\radit\\AppData\\Local\\GitHubDesktop\\bin',
+    'C:\\Users\\radit\\AppData\\Roaming\\npm',
+    'C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2023.2.5\\bin',
+    '',
+    'D:\\DEV\\flutter\\bin',
+    '',
+    [length]: 37
+  ]
+}
+2025-07-09T07:08:23.246Z [info] [my-dotnet-server] Server started and connected successfully
+2025-07-09T07:08:23.310Z [info] [filesystem] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-07-09T07:08:23.312Z [info] [my-dotnet-server] Message from client: {"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2025-07-09T07:08:23.782Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":0,"result":{"protocolVersion":"2024-11-05","capabilities":{"logging":{},"tools":{"listChanged":true}},"serverInfo":{"name":"mcp-server","version":"1.0.0.0"}}}
+2025-07-09T07:08:23.784Z [info] [my-dotnet-server] Message from client: {"method":"notifications/initialized","jsonrpc":"2.0"}
+2025-07-09T07:08:23.787Z [info] [my-dotnet-server] Message from client: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1}
+2025-07-09T07:08:23.787Z [info] [my-dotnet-server] Message from client: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":2}
+2025-07-09T07:08:23.788Z [info] [my-dotnet-server] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":3}
+2025-07-09T07:08:23.799Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":3,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}}
+2025-07-09T07:08:23.800Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"get_day_of_week","description":"Get the current day of the week","inputSchema":{"type":"object","properties":{}}}]}}
+2025-07-09T07:08:23.800Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":1,"result":{"tools":[{"name":"get_day_of_week","description":"Get the current day of the week","inputSchema":{"type":"object","properties":{}}}]}}
+2025-07-09T07:08:23.800Z [info] [my-dotnet-server] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":4}
+2025-07-09T07:08:23.801Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":4,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}}
+2025-07-09T07:08:25.367Z [info] [my-dotnet-server] Message from client: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":5}
+2025-07-09T07:08:25.368Z [info] [my-dotnet-server] Message from client: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":6}
+2025-07-09T07:08:25.368Z [info] [my-dotnet-server] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":7}
+2025-07-09T07:08:25.370Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":5,"result":{"tools":[{"name":"get_day_of_week","description":"Get the current day of the week","inputSchema":{"type":"object","properties":{}}}]}}
+2025-07-09T07:08:25.371Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":6,"result":{"tools":[{"name":"get_day_of_week","description":"Get the current day of the week","inputSchema":{"type":"object","properties":{}}}]}}
+2025-07-09T07:08:25.372Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":7,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}}
+2025-07-09T07:08:25.627Z [info] [my-dotnet-server] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":8}
+2025-07-09T07:08:25.666Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":8,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}}
+2025-07-09T07:08:30.465Z [info] [filesystem] Server transport closed
+2025-07-09T07:08:30.465Z [info] [filesystem] Client transport closed
+2025-07-09T07:08:30.466Z [info] [filesystem] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log.
+2025-07-09T07:08:30.467Z [error] [filesystem] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging)
+2025-07-09T07:08:30.467Z [info] [filesystem] Client transport closed
+2025-07-09T07:10:30.066Z [info] [my-dotnet-server] Message from client: {"method":"tools/call","params":{"name":"get_day_of_week","arguments":{}},"jsonrpc":"2.0","id":9}
+2025-07-09T07:10:30.088Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":9,"result":{"content":[{"type":"text","text":"Today is Wednesday."}]}}
+2025-07-09T07:10:30.132Z [info] [my-dotnet-server] Message from client: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":10}
+2025-07-09T07:10:30.132Z [info] [my-dotnet-server] Message from client: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":11}
+2025-07-09T07:10:30.132Z [info] [my-dotnet-server] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":12}
+2025-07-09T07:10:30.133Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":11,"result":{"tools":[{"name":"get_day_of_week","description":"Get the current day of the week","inputSchema":{"type":"object","properties":{}}}]}}
+2025-07-09T07:10:30.133Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":10,"result":{"tools":[{"name":"get_day_of_week","description":"Get the current day of the week","inputSchema":{"type":"object","properties":{}}}]}}
+2025-07-09T07:10:30.133Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":12,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}}
+2025-07-09T07:10:30.182Z [info] [my-dotnet-server] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":13}
+2025-07-09T07:10:30.183Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":13,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}}
+2025-07-09T07:20:30.759Z [info] [my-dotnet-server] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":14}
+2025-07-09T07:20:30.761Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":14,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}}
+2025-07-09T07:20:30.885Z [info] [my-dotnet-server] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":15}
+2025-07-09T07:20:30.886Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":15,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}}
+2025-07-09T07:30:30.763Z [info] [my-dotnet-server] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":16}
+2025-07-09T07:30:30.766Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":16,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}}
+2025-07-09T07:30:30.822Z [info] [my-dotnet-server] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":17}
+2025-07-09T07:30:30.824Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":17,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}}
+2025-07-09T07:40:30.764Z [info] [my-dotnet-server] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":18}
+2025-07-09T07:40:30.767Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":18,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}}
+2025-07-09T07:40:30.871Z [info] [my-dotnet-server] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":19}
+2025-07-09T07:40:30.873Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":19,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}}
+2025-07-09T07:50:30.765Z [info] [my-dotnet-server] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":20}
+2025-07-09T07:50:30.770Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":20,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}}
+2025-07-09T07:50:30.880Z [info] [my-dotnet-server] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":21}
+2025-07-09T07:50:30.882Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":21,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}}
+2025-07-09T08:00:30.765Z [info] [my-dotnet-server] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":22}
+2025-07-09T08:00:30.767Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":22,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}}
+2025-07-09T08:00:30.866Z [info] [my-dotnet-server] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":23}
+2025-07-09T08:00:30.868Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":23,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}}
+2025-07-09T08:40:10.099Z [info] [my-dotnet-server] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":24}
+2025-07-09T08:40:10.342Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":24,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}}
+2025-07-09T08:40:10.822Z [info] [my-dotnet-server] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":25}
+2025-07-09T08:40:10.895Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":25,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}}
+2025-07-09T08:48:33.692Z [info] [my-dotnet-server] Message from client: {"method":"tools/call","params":{"name":"get_day_of_week","arguments":{}},"jsonrpc":"2.0","id":26}
+2025-07-09T08:48:33.694Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":26,"result":{"content":[{"type":"text","text":"Today is Wednesday."}]}}
+2025-07-09T08:50:30.769Z [info] [my-dotnet-server] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":27}
+2025-07-09T08:50:30.772Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":27,"error":{"code":-32601,"message":"Method 'resources/list' is not available."}}
+2025-07-09T08:50:30.828Z [info] [my-dotnet-server] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":28}
+2025-07-09T08:50:30.829Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":28,"error":{"code":-32601,"message":"Method 'prompts/list' is not available."}}
+2025-07-09T08:52:58.068Z [info] [my-dotnet-server] Message from client: {"method":"tools/call","params":{"name":"get_day_of_week","arguments":{}},"jsonrpc":"2.0","id":29}
+2025-07-09T08:52:58.070Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":29,"result":{"content":[{"type":"text","text":"Today is Wednesday."}]}}
+2025-07-09T08:54:41.171Z [info] [my-dotnet-server] Message from client: {"method":"tools/call","params":{"name":"get_day_of_week","arguments":{}},"jsonrpc":"2.0","id":30}
+2025-07-09T08:54:41.173Z [info] [my-dotnet-server] Message from server: {"jsonrpc":"2.0","id":30,"result":{"content":[{"type":"text","text":"Today is Wednesday."}]}}
+2025-07-09T08:55:01.268Z [info] [filesystem] Shutting down server...
+2025-07-09T08:55:01.268Z [info] [filesystem] Client transport closed
+2025-07-09T08:55:01.269Z [info] [my-dotnet-server] Shutting down server...
+2025-07-09T08:55:01.269Z [info] [my-dotnet-server] Client transport closed
+2025-07-09T08:55:01.270Z [info] [my-dotnet-server] Server transport closed
+2025-07-09T08:55:01.270Z [info] [my-dotnet-server] Client transport closed
+2025-07-09T08:55:01.270Z [info] [my-dotnet-server] Server transport closed (intentional shutdown)
+2025-07-09T08:55:01.270Z [info] [my-dotnet-server] Client transport closed
+2025-07-09T08:55:01.280Z [info] [my-dotnet-server] Server transport closed
+2025-07-09T08:55:01.280Z [info] [my-dotnet-server] Client transport closed
